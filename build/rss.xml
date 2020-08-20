@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>elfcorreia</title>
+        <link>http://blog.elfcorreia.com.br</link>
+        <description>RSS feed for elfcorreia</description>
+        <atom:link href="http://blog.elfcorreia.com.br/rss.xml" rel="self" type="application/rss+xml" />
+                    <item>
+                <title>Olá Mundo!</title>
+                <description><![CDATA[<p>Olá a todos,</p>
+
+<p>está é a primeira postagem do blog.</p>
+]]></description>
+                <link>http://blog.elfcorreia.com.br/2015/07/26/ola-mundo</link>
+                <pubDate>Sun, 26 Jul 2015 00:00:00 +0000</pubDate>
+                <guid>http://blog.elfcorreia.com.br/2015/07/26/ola-mundo</guid>
+            </item>
+            </channel>
+</rss>
