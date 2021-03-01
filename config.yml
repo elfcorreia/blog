@@ -1,35 +1,13 @@
-title: 'elfcorreia'
-description: 'Meu site pessoal'
-logo: spresso-logo.png
-url: 'http://blog.elfcorreia.com.br'
-parsedown_actived: true
-comments:
-    enabled: true
-    disqus_shortname: ''
-author:
-    name: 'Emerson Correia'
-    twitter: elfcorreia
-    github: 'https://github.com/elfcorreia'
-    bitbucket: null
-    facebook: null
-    linkedin: null
-    gplus: null
-    youtube: elfcorreia
-collections:
-    posts: { output: true }
-    projetos: { output: true }
+debug: true
 
-feed:
-    max_item: 10
-open_graph:
-    locale: pt_BR
-code_highlight: true
-google_verify: null
-bing_verify: null
-top_menu:
-    - { name: Início, url: / }
-    - { name: Projetos, url: /projetos }
-bottom_menu:
-    - { name: 'Go to the Spresso theme webpage', url: 'https://github.com/yosymfony/Spress-theme-spresso' }
+parsedown_activated: true
+timezone: 'America/Fortaleza' 
+no_html_extension: true
+
 themes:
-    name: spress/spress-theme-spresso
+  name: ""
+
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:title/

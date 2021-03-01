@@ -1,21 +1,17 @@
 ---
-layout: "page"
-list_mode: true
-generator: "taxonomy"
-max_page: 5
+layout: default
+generator: taxonomy
 taxonomy_attribute: "categories"
-permalink: "/:name"
 ---
-<div class="page-header">
-    <h1>{{ page.term }} <small>category</small></h1>
-</div>
-
-{% if page.list_mode %}
-    {% include "posts-list.html" with { posts: page.pagination.items } %}
-{% else %}
-    {% for post in page.pagination.items %}
-        {% include "post.html" %}
+<section>
+    <h2>{{page.term | capitalize}}</h2>
+    <ul>
+    {% for post in site.posts %}
+        {% for c in post.categories %}        
+            {% if c | lower == page.term %}
+                <li><a href="{{post.url}}">{{post.title}}</a></li>
+            {% endif %}
+        {% endfor %}    
     {% endfor %}
-{% endif %}
-
-{% include "paginator.html" %}
+    </ul>
+</section>

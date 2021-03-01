@@ -11,21 +11,15 @@
     <body>
         <div>
             <div style="max-width: 900px; margin: auto; flex-grow: 1;">
-                <div style="width: 200px; padding: 1em 2em;">
-    <a href="/">Elfcorreia</a>
-</div>
-<ul class="tabs" style="flex-grow: 1;">
-    <li><a href="/">Início</a></li>
-        <li><a href="/categories/projetos">Projetos</a></li>
-        <li><a href="/categories/softwares">Softwares</a></li>
-        <li><a href="/sobre">Sobre</a></li>
-</ul>            
+                {% include "topbar.html" %}            
             </div>
         </div>
         <div style="flex-grow: 1; display: flex;">
             <main style="max-width: 900px;">
-                                    página inicial do blog
-                            </main>
+                {% block content %}
+                    {{ page.content }}
+                {% endblock %}
+            </main>
         </div>
         <div>
             <footer style="max-width: 900px;">

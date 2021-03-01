@@ -1,0 +1,10 @@
+<div style="width: 200px; padding: 1em 2em;">
+    <a href="/">Elfcorreia</a>
+</div>
+<ul class="tabs" style="flex-grow: 1;">
+    <li><a href="/">Início</a></li>
+    {% for nome, posts in site.categories %}
+    <li><a href="/categories/{{nome | lower}}">{{nome}}</a></li>
+    {% endfor %}
+    <li><a href="/sobre">Sobre</a></li>
+</ul>
