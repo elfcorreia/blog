@@ -1,11 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://blog.elfcorreia.com.br</loc>
+        <loc></loc>
     </url>
             <url>
-            <loc>http://blog.elfcorreia.com.br/2015/07/26/ola-mundo</loc>
-            <lastmod>2015-07-26</lastmod>
+            <loc>/projetos/modelo-atomico-de-bohr</loc>
+            <lastmod></lastmod>
+            <changefreq>monthly</changefreq>
+            <priority>0.5</priority>
+        </url>
+            <url>
+            <loc>/softwares/gnu-compile-collection-gcc</loc>
+            <lastmod></lastmod>
+            <changefreq>monthly</changefreq>
+            <priority>0.5</priority>
+        </url>
+            <url>
+            <loc>/softwares/visual-studio-code-e-vscodium</loc>
+            <lastmod></lastmod>
+            <changefreq>monthly</changefreq>
+            <priority>0.5</priority>
+        </url>
+            <url>
+            <loc>/projetos/equilibrio-quimico</loc>
+            <lastmod></lastmod>
+            <changefreq>monthly</changefreq>
+            <priority>0.5</priority>
+        </url>
+            <url>
+            <loc>/projetos/reconheca-invasores-no-sistema-imune</loc>
+            <lastmod></lastmod>
+            <changefreq>monthly</changefreq>
+            <priority>0.5</priority>
+        </url>
+            <url>
+            <loc>/softwares/notepad</loc>
+            <lastmod></lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
         </url>

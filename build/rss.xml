@@ -1,19 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>elfcorreia</title>
-        <link>http://blog.elfcorreia.com.br</link>
-        <description>RSS feed for elfcorreia</description>
-        <atom:link href="http://blog.elfcorreia.com.br/rss.xml" rel="self" type="application/rss+xml" />
+        <title></title>
+        <link></link>
+        <description>RSS feed for </description>
+        <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
                     <item>
-                <title>Olá Mundo!</title>
-                <description><![CDATA[<p>Olá a todos,</p>
-
-<p>está é a primeira postagem do blog.</p>
-]]></description>
-                <link>http://blog.elfcorreia.com.br/2015/07/26/ola-mundo</link>
-                <pubDate>Sun, 26 Jul 2015 00:00:00 +0000</pubDate>
-                <guid>http://blog.elfcorreia.com.br/2015/07/26/ola-mundo</guid>
+                <title>Modelo Atômico de Bohr</title>
+                <description><![CDATA[<h2>Animação interativa do modelo atômico de Bohr</h2>
+<p>Disponível em: <a href="http://bohr.elfcorreia.com.br">http://bohr.elfcorreia.com.br</a></p>]]></description>
+                <link>/projetos/modelo-atomico-de-bohr</link>
+                <pubDate>Mon, 01 Mar 2021 19:49:39 -0300</pubDate>
+                <guid>/projetos/modelo-atomico-de-bohr</guid>
+            </item>
+                    <item>
+                <title>GNU Compile Collection (GCC)</title>
+                <description><![CDATA[<center><a href="https://gcc.gnu.org"><img alt="GNU Compile Collection Logo" src="https://gcc.gnu.org/img/gccegg-65.png"></a></center>
+<p>O <a href="https://gcc.gnu.org">GCC</a> é uma coleção de compiladores do projeto <a href="https://www.gnu.org">GNU</a>. Instalar o GCC significa instalar vários programas. Contudo, aqui estamos interessados no compilador de C++ que é disponibilizado.</p>
+<p>Para instalar no <a href="https://linuxmint.com">Linux Mint</a> podemos digitar na linha de comando:</p>
+<pre><code>$ sudo apt install build-essential</code></pre>
+<p>No Windows podemos obter o GCC através do projeto <a href="http://mingw-w64.org/doku.php/download/mingw-builds">MinGW-w64</a>.</p>
+<p>O vídeo a seguir mostra o passo-a-passo da sua instalação.</p>
+<center><iframe width="100%" height="315" src="https://www.youtube.com/embed/64h7wRd8AEk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>]]></description>
+                <link>/softwares/gnu-compile-collection-gcc</link>
+                <pubDate>Mon, 01 Mar 2021 19:49:39 -0300</pubDate>
+                <guid>/softwares/gnu-compile-collection-gcc</guid>
+            </item>
+                    <item>
+                <title>Visual Studio Code e VSCodium</title>
+                <description><![CDATA[<center><img src="https://code.visualstudio.com/apple-touch-icon.png" alt="vscode-logo" width="48"></center>
+<p>O Visual Studio Code (VSCode) é um editor de texto livre, de código-aberto (licenciado sob os termos da <a href="https://pt.wikipedia.org/wiki/Licen%C3%A7a_MIT">Licença MIT</a>, e multiplataforma desenvolvido pela Microsoft e escrito em JavaScript e TypeScript. Ele é construído sobre o <em>framework</em> <a href="https://www.electronjs.org">Electron</a> e pode ser extendido usando extensões. Enquanto o projeto é de código-aberto, uma versão compilada, licenciada sob os termos de um <a href="https://pt.wikipedia.org/wiki/Acordo_de_licen%C3%A7a_de_usu%C3%A1rio_final">Acordo de Licença de Usuário-Final</a> também é fornecida pela Microsoft.</p>
+<p><strong>Recomendo instalar o <a href="https://vscodium.com">VSCodium</a> uma distribuição binária do VSCode distribuída livremente e organizada pela comunidade.</strong></p>
+<center>
+![vscodium-logo](https://raw.githubusercontent.com/VSCodium/vscodium/master/icons/code_64.png)
+</center>
+<p>O projeto VSCodium existe para que você não precise baixar e compilar os códigos fontes. Esse projeto possui scripts que clonam o repositório do VSCode e roda comandos personalizados de compilação. Assim, não há prejuízo nenhum em usar o VSCodium, já que os recursos do binário do VSCodium estão sempre sincronizados com os do VSCode. Esses binários são livres, licenciados sob a licensa MIT e <strong>o mais importante: possuem os recursos de Telemetria da Microsoft desativados.</strong></p>
+<img src="https://vscodium.com/img/vscodium.png" style="width: 100%;">
+<h5>Referências</h5>
+<ul>
+<li><a href="https://wiki.archlinux.org/index.php/Visual_Studio_Code_(Portugu%C3%AAs)">https://wiki.archlinux.org/index.php/Visual_Studio<em>Code</em>(Portugu%C3%AAs)</a>. Acesso em 28/02/2021.</li>
+</ul>]]></description>
+                <link>/softwares/visual-studio-code-e-vscodium</link>
+                <pubDate>Mon, 01 Mar 2021 19:49:39 -0300</pubDate>
+                <guid>/softwares/visual-studio-code-e-vscodium</guid>
+            </item>
+                    <item>
+                <title>Equilíbrio Químico</title>
+                <description><![CDATA[<h2>Animação interativa do processo de equilíbrio químico entre duas substâncias</h2>
+<p>Disponível em: <a href="http://equilibrio.elfcorreia.com.br">http://equilibrio.elfcorreia.com.br</a></p>]]></description>
+                <link>/projetos/equilibrio-quimico</link>
+                <pubDate>Mon, 01 Mar 2021 19:49:39 -0300</pubDate>
+                <guid>/projetos/equilibrio-quimico</guid>
+            </item>
+                    <item>
+                <title>Reconheça invasores no sistema imune</title>
+                <description><![CDATA[<h2>Jogo Educativo onde o você desafia uma Inteligência Artificial para reconhecer invasores no sistema imune</h2>
+<p>Disponível em: <a href="http://imuno.elfcorreia.com.br">http://imuno.elfcorreia.com.br</a></p>]]></description>
+                <link>/projetos/reconheca-invasores-no-sistema-imune</link>
+                <pubDate>Mon, 01 Mar 2021 19:49:39 -0300</pubDate>
+                <guid>/projetos/reconheca-invasores-no-sistema-imune</guid>
+            </item>
+                    <item>
+                <title>Notepad++</title>
+                <description><![CDATA[<center><a href=""><img alt="logo-notepad-plus-plus" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Notepad%2B%2B_Logo.png/128px-Notepad%2B%2B_Logo.png"></a></center>
+<p>O <a href="https://notepad-plus-plus.org/">Notepad++</a> é editor de código livre com suporte a diversas linguagens. É licenciado sob os termos da <a href="https://pt.wikipedia.org/wiki/GNU_General_Public_License">GNU General Public License</a>. É um excelente substituto para o Notepad do Windows.</p>
+<center><img style="width: 100%;" alt="screenshot-notepad-plus-plus" src="https://notepad-plus-plus.org/assets/images/notepad4ever.gif"></center>]]></description>
+                <link>/softwares/notepad</link>
+                <pubDate>Mon, 01 Mar 2021 19:49:39 -0300</pubDate>
+                <guid>/softwares/notepad</guid>
             </item>
             </channel>
 </rss>

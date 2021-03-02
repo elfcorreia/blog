@@ -1,0 +1,33 @@
+{
+    "generator": {
+        "version": "3.0.0"
+    },
+    "site": {
+        "dependencies": {
+            "default.html": [
+                "index.html",
+                "404.html",
+                "categories/projetos/index.html",
+                "categories/softwares/index.html"
+            ],
+            "index.html": [],
+            "404.html": [],
+            "page.html": [
+                "posts/31-12-2020-modelo-bohr.md",
+                "posts/26-02-2021-gcc.md",
+                "posts/26-02-2021-vscode.md",
+                "posts/31-12-2020-equilibrio.md",
+                "posts/31-12-2020-imuno.md",
+                "posts/26-02-2021-notepad++.md"
+            ],
+            "posts/31-12-2020-modelo-bohr.md": [],
+            "posts/26-02-2021-gcc.md": [],
+            "posts/26-02-2021-vscode.md": [],
+            "posts/31-12-2020-equilibrio.md": [],
+            "posts/31-12-2020-imuno.md": [],
+            "posts/26-02-2021-notepad++.md": [],
+            "categories/projetos/index.html": [],
+            "categories/softwares/index.html": []
+        }
+    }
+}
