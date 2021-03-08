@@ -8,7 +8,8 @@
                 "index.html",
                 "404.html",
                 "categories/projetos/index.html",
-                "categories/softwares/index.html"
+                "categories/softwares/index.html",
+                "sobre.html"
             ],
             "index.html": [],
             "404.html": [],
@@ -27,7 +28,8 @@
             "posts/31-12-2020-imuno.md": [],
             "posts/26-02-2021-notepad++.md": [],
             "categories/projetos/index.html": [],
-            "categories/softwares/index.html": []
+            "categories/softwares/index.html": [],
+            "sobre.html": []
         }
     }
 }

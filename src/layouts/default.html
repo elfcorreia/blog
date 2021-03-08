@@ -10,15 +10,36 @@
     </head>
     <body>
         <div>
-            <div style="max-width: 900px; margin: auto; flex-grow: 1;">
-                {% include "topbar.html" %}            
-            </div>
+            <header>                
+                <a style="text-decoration: none; color: black; padding: 0 1em;" href="/">
+                    <div style="width: 200px; display: flex; align-items: center;">
+                        <img alt="avatar" style="width: 32; height: 32;" src="/assets/avatar32.png">
+                        <span style="text-transform: uppercase; margin-left: 10px; letter-spacing: 0.05em; font-weight: bolder;">Elfcorreia</span>
+                    </div>
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="/">Início</a></li>    
+                        <li><a href="/sobre">Sobre</a></li>
+                    </ul>
+                </nav>
+                <div class="burguer">
+                    <svg viewBox="0 0 27 22" width="27" height="32">
+                        <rect y="0" width="32" height="3" fill="rgb(17, 24, 39)"></rect>
+                        <rect y="9" width="32" height="3" fill="rgb(17, 24, 39)"></rect>
+                        <rect y="18" width="32" height="3" fill="rgb(17, 24, 39)"></rect>
+                    </svg>
+                </div>            
+            </header>
         </div>
         <div style="flex-grow: 1; display: flex;">
             <main style="max-width: 900px;">
-                {% block content %}
-                    {{ page.content }}
-                {% endblock %}
+                <article>
+                    {% block content %}
+                        {{ page.content }}
+                    {% endblock %}
+                </article>
+                <aside></aside>
             </main>
         </div>
         <div>
